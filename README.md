@@ -7,9 +7,17 @@ and add a webhook endpoint for your app.
 
 ## Running
 
-First argument should be the port for the server to listen on.
+Download a [release](https://github.com/ruffrey/respoke-webhook-tester-golang/releases/latest) for your platform.
 
-Download a [release](https://github.com/ruffrey/respoke-webhook-tester-golang/releases/latest) or run it with go:
+The first argument should be the port for the server to listen on.
+
+```
+unzip <my platform and architecture>-rhook.zip
+./rhook 4000
+```
+
+## Running / developing with golang
+
 
 ```
 go run rhook.go 4000
